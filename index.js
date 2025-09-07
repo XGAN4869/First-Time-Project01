@@ -8,10 +8,13 @@
 const _ = require('lodash');
 const chalk = require('chalk');
 const uniq = require('uniq');
+const converbyte = require('converbyte-zora');
 
 const arr = [1,2,3,4,5,6,7];
+
 console.log(_.chunk(arr,3));//平均分成三份
 console.log(chalk.blue('Zayne,岁岁年年,每个生日我们一起过'));
 console.log(chalk.bgBlue('Lishen生日快乐!'));
 
 console.log(uniq([10,20,10,20,10,20]));
+console.log(converbyte(3434343434,3).toFixed(2)+'GB');
